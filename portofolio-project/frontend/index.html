@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Muorongole | Cybersecurity Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">JOSHUA<span>MUORONGOLE</span></a>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#elevator-pitch">Elevator Pitch</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>Joshua Muorongole</h1>
+                <p>Computer Science Student & Aspiring Cybersecurity Specialist. Passionate about making technology safer for all through secure application design and cybersecurity education.</p>
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="#resume" class="btn btn-filled">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elevator Pitch Video Section -->
+    <section class="elevator-pitch" id="elevator-pitch">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Elevator Pitch</h2>
+                <p class="pitch-description">
+                    Hear directly from me about my mission in cybersecurity and how I approach making technology safer for everyone.
+                </p>
+            </div>
+            
+            <div class="pitch-content">
+                <div class="video-container">
+                    <!-- Embedded Video -->
+                    <div class="video-wrapper">
+                        <video id="elevatorVideo" controls poster="jay.jpg" class="elevator-video">
+                            <source src="VID_20251214_084544.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay" id="videoOverlay">
+                            <div class="play-button" id="playButton">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h3>Joshua Muorongole</h3>
+                                <p>Cybersecurity Specialist | Aspiring Security Analyst</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="video-caption">
+                        <p><strong>Duration:</strong> 60 seconds | <strong>Topics:</strong> Cybersecurity, User Protection, Education</p>
+                    </div>
+                </div>
+                
+                <div class="pitch-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="highlight-text">
+                            <h3>Security First</h3>
+                            <p>Proactive approach to identifying and mitigating digital vulnerabilities before they become threats.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="highlight-text">
+                            <h3>User-Centric</h3>
+                            <p>Designing security solutions that are accessible and intuitive for all users, especially vulnerable populations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="highlight-text">
+                            <h3>Education Focused</h3>
+                            <p>Empowering communities through cybersecurity awareness and practical training.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="transcript-section">
+                    <h3><i class="fas fa-file-alt"></i> Video Transcript Preview</h3>
+                    <div class="transcript-content">
+                        <p>"Hello, I'm Joshua Muorongole - a cybersecurity specialist dedicated to making technology safer for everyone. 
+                        In today's digital landscape, security isn't just about complex algorithms; it's about creating solutions that 
+                        real people can use and trust..."</p>
+                        
+                        <div class="transcript-more">
+                            <a href="#" id="showTranscript">Read Full Transcript <i class="fas fa-chevron-down"></i></a>
+                            <div id="fullTranscript" style="display: none;">
+                                <p>"My approach combines technical expertise in vulnerability assessment with user-centered design principles. 
+                                I believe the most effective security solutions are those that are intuitive and accessible, particularly 
+                                for populations most vulnerable to cyber threats.</p>
+                                
+                                <p>Through my work, I've discovered that elderly users often become targets of cyber attacks because 
+                                security tools are too complex. That's why I focus on creating secure applications that are as 
+                                user-friendly as they are robust.</p>
+                                
+                                <p>Beyond just building secure systems, I'm passionate about education. I volunteer as a technology 
+                                mentor, teaching both students and organizations about emerging threats and safe digital practices.</p>
+                                
+                                <p>Whether you need vulnerability assessment for your applications, secure system design, or 
+                                cybersecurity training for your team, I'm here to help create a safer digital environment for everyone."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science student and aspiring cybersecurity specialist currently pursuing my degree at Masinde Muliro University of Science and Technology while simultaneously completing a professional Cybersecurity certification through ALX.</p>
+                    
+                    <p>My work focuses on identifying digital vulnerabilities and designing secure, user-friendly applications that address real-world risks. Driven by a desire to make technology safer for all, I aim to become a leading security analyst and educator, particularly for communities most vulnerable to cyber threats.</p>
+                    
+                    <p>I'm dedicated to bridging the gap between complex cybersecurity concepts and public understanding through mentorship and practical solutions.</p>
+                </div>
+                
+                <div class="education">
+                    <h3>Education & Certification</h3>
+                    <div class="edu-item">
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <p>Masinde Muliro University of Science and Technology</p>
+                        <p><i>Currently pursuing</i></p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Professional Cybersecurity Certification</h4>
+                        <p>ALX Certification Program</p>
+                        <p><i>Currently completing</i></p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Cybersecurity Focus Areas</h4>
+                        <p>• Digital Vulnerability Assessment</p>
+                        <p>• Secure Application Design</p>
+                        <p>• Cybersecurity Education</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services & Expertise</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Vulnerability Assessment</h3>
+                    <p>Comprehensive analysis of digital systems to identify security weaknesses and potential threats.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure Application Design</h3>
+                    <p>Developing user-friendly applications with security built in from the ground up.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Cybersecurity Training</h3>
+                    <p>Educating individuals and organizations on cyber threats and safe digital practices.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>User Research & UX Design</h3>
+                    <p>Conducting research to understand user needs and designing intuitive interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notable Achievements</h2>
+            </div>
+            
+            <div class="achievement-cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>User Research Leadership</h3>
+                    <p>Led user research that identified elderly individuals as a primary target of cyber attacks, guiding the design of a more accessible forensic application prototype.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>UI/UX Design Recognition</h3>
+                    <p>Recognized by peers and instructors for designing an intuitive and fully functional UI/UX prototype that improved collaboration and efficiency for engineering teams.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Technology Mentorship</h3>
+                    <p>Volunteered as a teacher and technology mentor at Illeret Secondary High School, establishing foundational curricula and educating students on emerging cyber threats and safe digital practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial active" id="testimonial-1">
+                    <p class="testimonial-text">"Joshua demonstrated exceptional skill in identifying security vulnerabilities in our application. His user research on elderly users was particularly insightful and helped us create a more secure product for vulnerable populations."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Dr. Sarah Kimani</h4>
+                            <p>Senior Lecturer, Computer Science Department</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial" id="testimonial-2" style="display: none;">
+                    <p class="testimonial-text">"As a project team member, Joshua's UI/UX design skills significantly improved our workflow. His prototype was not only visually appealing but also highly functional, earning praise from both peers and instructors."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>James Muranga</h4>
+                            <p>Fellow Student & Project Collaborator</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial" id="testimonial-3" style="display: none;">
+                    <p class="testimonial-text">"Joshua's volunteer work at our school transformed our technology curriculum. He educated both students and teachers on cybersecurity threats and safe practices, leaving a lasting impact on our community."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Principal Aemun </h4>
+                            <p>Illeret Secondary High School</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <button id="prevTestimonial"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextTestimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest Insights</h2>
+            </div>
+            
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">October 15, 2023</div>
+                        <h3>Protecting Elderly Users from Cyber Threats</h3>
+                        <p>Exploring why elderly individuals are primary targets of cyber attacks and strategies for creating more accessible security solutions.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">September 28, 2023</div>
+                        <h3>UI/UX Design for Security Applications</h3>
+                        <p>How intuitive interface design can improve security outcomes and user adoption of protective tools.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">August 10, 2023</div>
+                        <h3>Cybersecurity Education in Schools</h3>
+                        <p>The importance of introducing cybersecurity concepts early and strategies for effective teaching.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume-section" id="resume">
+        <div class="container">
+            <div class="section-title">
+                <h2>Resume & Skills</h2>
+            </div>
+            
+            <div class="resume-content">
+                <div class="resume-download">
+                    <div class="download-icon">
+                        <i class="fas fa-file-download"></i>
+                    </div>
+                    <h3>Download My Resume</h3>
+                    <p>Get a complete overview of my education, experience, and qualifications in PDF format.</p>
+                    <a href="My resume.pdf" class="btn btn-filled" id="downloadBtn" download="Joshua_Muorongole_Resume.pdf">Download PDF</a>
+                </div>
+                
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">Vulnerability Assessment</div>
+                            <div class="skill-item">Secure Application Design</div>
+                            <div class="skill-item">UI/UX Prototyping</div>
+                            <div class="skill-item">User Research</div>
+                            <div class="skill-item">Python Programming</div>
+                            <div class="skill-item">Network Security</div>
+                            <div class="skill-item">Digital Forensics</div>
+                            <div class="skill-item">JavaScript/HTML/CSS</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">Mentorship & Teaching</div>
+                            <div class="skill-item">Team Collaboration</div>
+                            <div class="skill-item">Public Speaking</div>
+                            <div class="skill-item">Problem Solving</div>
+                            <div class="skill-item">Research & Analysis</div>
+                            <div class="skill-item">Project Leadership</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Certifications & Training</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">ALX Cybersecurity</div>
+                            <div class="skill-item">Network Security Fundamentals</div>
+                            <div class="skill-item">Ethical Hacking Basics</div>
+                            <div class="skill-item">UI/UX Design Principles</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Masinde Muliro University, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>muorongolejoshua@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+254 715224878</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div>
+                            <h3>Career Goals</h3>
+                            <p>Security Analyst & Cybersecurity Educator</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Enhance Your Cybersecurity?</h2>
+                <p>Whether you need vulnerability assessment, secure application design, or cybersecurity training, I'm here to help make your digital environment safer.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-filled">Schedule a Consultation</a>
+                    <a href="#contact" class="btn">Send a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="www.linkedin.com/in/joshua-muorongole-199462383"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Joshua-A-tech"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#elevator-pitch">Elevator Pitch</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+                <a href="#resume">Resume</a>
+            </div>
+            
+            <p class="copyright">&copy; 2023 Joshua Muorongole. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
