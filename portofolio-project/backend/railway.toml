@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+buildCommand = "npm install"
+
+[deploy]
+startCommand = "./start.sh"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 100
+
+[[services]]
+name = "portfolio-backend"
+port = 3000
