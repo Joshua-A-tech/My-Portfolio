@@ -117,12 +117,22 @@ function showFormMessage(message, type) {
     formMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
-// YouTube iframe - autoplay handled by YouTube player
-// Note: YouTube iframe API would be needed for advanced control
-// For now, removing IntersectionObserver for local video control
-// To add YouTube API control later:
-// 1. Include YouTube IFrame API: <script src="https://www.youtube.com/iframe_api"></script>
-// 2. Create YouTube player instance with events
+// Video autoplay on scroll (optional)
+const video = document.getElementById('elevatorVideo');
+if (video) {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Optional: play video when it's 50% visible
+                // video.play();
+            } else {
+                // Optional: pause video when not visible
+                // video.pause();
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    observer.observe(video);
 }
 
 // Test backend connection on load

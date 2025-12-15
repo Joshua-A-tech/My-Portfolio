@@ -574,3 +574,72 @@ footer {
         flex-direction: column;
     }
 }
+/* YouTube Video Styles */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: #000;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: none;
+}
+
+/* Keep your existing overlay styles for consistency */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.video-wrapper:hover .video-overlay {
+    opacity: 1;
+}
+
+.play-btn {
+    background: rgba(255, 0, 0, 0.8); /* YouTube red */
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.play-btn:hover {
+    transform: scale(1.1);
+    background: rgba(255, 0, 0, 1);
+}
+
+.video-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.video-info p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
